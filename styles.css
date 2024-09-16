@@ -1,0 +1,84 @@
+/*.container{
+  /* width: 246%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -2%);
+  border: 2px solid;
+  height: 460px; */
+/*}*/
+body{
+  background: #323232;
+}
+h3{
+  display: flex;
+  justify-content: center;
+  font-size: 44px;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  
+}
+.input-field{
+  padding: 10px 10px 10px 10px;
+  margin: 3px 73px 10px 73px;
+  border-radius: 12px;
+}
+button{
+  padding: 12px;
+  position: relative;
+  font-size: 17px;
+  border-radius: 54px;
+  border: 1px #E4003A;
+  margin: 26px 73px 10px 73px;
+  background: #A91D3A;
+  color: #cac6c6;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-image: url(E-YRWPNXEAIqDDP.jfif);
+  background-position: -10px -5px;
+  background-repeat: no-repeat;
+  background-size: 1084px;
+  border-radius: 350px;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 462px;
+  height: 462px;
+  box-shadow: 0px 0px 4px black;
+  border-radius: 10%;
+  background: #474747;
+  color: #cac6c6
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
